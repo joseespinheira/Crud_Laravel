@@ -17,6 +17,10 @@ Route::get('/', function () {
     return App\Book::all();
 });
 */
+
+Route::get('/banco', function () {
+    return view('banco');
+}); 
 Route::get('/', function () {
     return view('welcome');
 }); 
