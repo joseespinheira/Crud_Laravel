@@ -4,7 +4,12 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
-    "require": {
+    "authors": [
+        {
+            "name": "José Espinheira",
+            "email": "joseespinheira@gmail.com"
+        }
+    ],"require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "^5.2.0"
