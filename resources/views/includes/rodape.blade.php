@@ -1,0 +1,1 @@
+<div id="copyright text-right">© Copyright 2013 Todos os direitos reservador José Espinheira</div>
