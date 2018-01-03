@@ -22,12 +22,14 @@ Route::get('/banco', function () {
     return view('banco');
 });
 
+/*
 Route::get('/teste', function () {
     return view('geral');
 });
+*/
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
 
 Route::resource('books', 'BooksController');

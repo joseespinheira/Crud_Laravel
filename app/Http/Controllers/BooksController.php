@@ -60,7 +60,7 @@ class BooksController extends Controller
         $books->title = $request->title;
         $books->description = $request->description;
         $books->save();
-        return redirect('$books')->with('message', 'Book editado com sucesso!');
+        return redirect('books')->with('message', 'Book editado com sucesso!');
     }
 
     /**
